@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Nunito, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  background-color: #089c84;
+}
+
+.wrap-login {
+  width: 390px;
+  height:600px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+.msg-menu{
+  margin-bottom: 100px;
+}
+
+.msg-menu .input {
+  width: 100%;
+  height: 32px;
+  margin-top: 24px;
+  background-color: #d6efea;
+  border-color: transparent;
+  resize: none;
+  padding: 8px;
+}
+
+.login-form {
+  padding: 0px 55px 33px 55px;
+  width: 100%;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  background-color:#009f80;
+  width: 100%;
+  height: 40px;
+  padding: 0 8px;
+}
+
+.topo button{
+  display: flex;
+  align-items: center;
+  background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+  margin-left: auto;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  background-color:#009f80;
+  width: 100%;
+  height: 40px;
+  padding: 0 8px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.bottom button{
+  display: flex;
+  align-items: center;
+  background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+  width: 100%;
+}
+
+.bottom h1 {
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: 100;
+  width: 100%;
+  text-align: center;
+  margin-left: -35px;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.login-form-title {
+  font-family: Nunito, sans-serif;
+  display: block;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.login-form-title img {
+  width: 150px;
+}
+
+.wrap-input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.wrap-input .input {
+  width: 100%;
+  height: 250px;
+  margin-top: -80px;
+  background-color: #d6efea;
+  border-color: transparent;
+  resize: none;
+  padding: 8px;
+}
+
+.service-form {
+  margin-top: -80px;
+}
+
+.checkboxLine {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+}
+
+.service-form .input {
+  width: 100%;
+  height: 32px;
+  background-color: #d6efea;
+  border-color: transparent;
+  resize: none;
+  padding: 8px;
+}
+
+.service-form .checkbox-input {
+  height: 20px;
+  width: 20px;
+}
+
+.service-form h3 {
+  width: 100%;
+  height: 32px;
+  margin-top: 8px;
+}
+
+.service-form input, .service-form span {
+  margin-right: 8px;
+}
+
+.date-form {
+  margin-top: -80px;
+  width: 100%;
+  padding: 8px;
+  background-color: #d6efea;
+}
+
+.date-option {
+  display: flex;
+  justify-content: space-between;
+  background-color: #009f7e;
+  padding: 8px;
+}
+
+.date-option + div{
+  margin-top: 8px;
+}
+
+.date-option .left-side, .date-option .right-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side .input, .date-option .input {
+  margin-right: 16px;
+  height: 24px;
+}
+
+.left-side input, .right-side h4 {
+  margin-right: 8px;
+}
+
+.date-option h4 {
+  font-weight: lighter;
+}
+
+.revision-form {
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #009f7e;
+  padding: 8px;
+}
+
+.revision-form h1 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.revision-form span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container-tela-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 13px;
+  bottom: 50px;
+}
+
+.tela1-btn1 {
+  font-size: 15px;
+  border-color:#000000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #009f80;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.tela1-btn2 {
+  font-size: 15px;
+  border-color:#000000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #009f80;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.tela1-btn3 {
+  font-size: 15px;
+  border-color:#000000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #009f80;
+  text-decoration: none;
+}
+
+.tela1-btn4 {
+  font-size: 15px;
+  border-color:#000000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #009f80;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.tela1-btn5 {
+  font-size: 15px;
+  border-color:#000000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #009f80;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.tela1-btn1:hover {
+  cursor: pointer;
+}
+.return{
+  position: absolute;
+  color: #000000;
+  text-decoration: none;
+  bottom:200px;
+}
+.container-tela-btn2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 13px;
+  top:100px;
+  padding-top: 75px;
+  
+}
